@@ -4,11 +4,14 @@ A simple FastAPI tool to compare your Instagram Followers vs. Following list to 
 
 ## How to use
 
-1. **Export Data from Instagram:**
-   - Go to Settings > Your Activity > Download your information.
-   - Select "Followers and following".
-   - Format: **JSON**.
+### 1. Export Data from Instagram
+You need to request your data from Instagram. 
+1. Go to **Settings** > **Your Activity** > **Download your information**.
+2. Select **"Followers and following"**.
+3. **Important:** Select **JSON** as the format (not HTML).
 
-2. **Setup:**
-   ```bash
-   pip install -r requirements.txt
+![Instagram Export Settings](assets/export_settings.png)
+
+### 2. Setup
+```bash
+pip install -r requirements.txt
