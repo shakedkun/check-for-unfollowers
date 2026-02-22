@@ -8,3 +8,4 @@ env/
 
 # IMPORTANT: Ignore your personal data files
 *.json
+.idea/
